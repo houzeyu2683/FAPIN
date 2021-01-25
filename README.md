@@ -1,2 +1,14 @@
-# FAPIN
-Fast Application Programming Interface Notebook
+
+# FAPIN (Fast Application Programming Interface Notebook)
+
+最後紀錄時間：2021/01/25
+
+檔案按照進度由小排到大，每個檔案都或多或少包含先前檔案的內容，用於紀錄建構Web服務的筆記。該筆記目的是紀錄自己學習的方法，嘗試透過自己的理解來說明官網教學的內容，
+
+## 目錄
+
+環境配置因人而異，這邊提供一種方法，使用Miniconda套件管理工具，在虛擬環境中事先安裝好所需的套件。筆記內容只會部份參考官網，所以有些內容可能會有不同，不保證完全正確。
+
+- 01
+  - 使用Uvicorn啟動服務器。
+  - 編寫第一個API。
