@@ -74,7 +74,7 @@ async def student(v):
 ##
 ##
 if(__name__=='__main__'):
-
+ 
     ##  設定參數，啟動服務器，
     ##  參數'reload=True'代表當偵測到腳本改變，將會重新啟動服務器，方便開發。
     uvicorn.run("02:application", host="localhost", port=5000, reload=True)
