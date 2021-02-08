@@ -37,8 +37,7 @@ async def item(i):
 ##  當呼叫該路徑，執行'number'函數。
 ##  路徑中的'{n}'與函數'number'中的參數'n'必須一致。
 ##  其中'{n}'代表變數，將會透過參數'n'送入'number'函數。
-##  與函數'item'不同，這邊限制只能傳入整數，否則將不會得到正確的結果。
-##  如果沒有限制類型，預設為字串。
+##  限制只能傳入整數，否則將不會得到正確的結果。
 @application.get('/number/{n}')
 async def number(n:int):
     response = {"number":n}
